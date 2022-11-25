@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tailwind UI</title>
+    <link rel="icon" href="/assets/images/log.png">
+    <link href="/dist/output.css" rel="stylesheet">
+    <style>
+          *{
+        font-family: 'Quicksand', sans-serif;
+      }
+    </style>
+    </head>
+    <body>
+        <div class=" container mx-auto">
+            <div class="h-screen flex flex-col items-center justify-center space-y-8">
+                <!-- logo -->
+                <div class="">
+                    <img src="/assets/images/logo.png" alt="">
+                </div>
+                <div class=" text-center space-y-2">
+                    <h1>Get started for free</h1>
+                    <p>Already registered?<span class=""><a class=" text-blue-600 font-medium" href="Sign_in.html">Sign in </a>for a free trial</span></p>
+                </div>
+                <!-- first name -->
+                <div class=" flex flex-col space-y-3">
+                    <label for="">First Name</label>
+                    <input class=" border border-slate-500 rounded-xl bg-slate-300 md:px-20 px-10 py-2" type="text" placeholder="Enter your First_Name">
+                </div>
+                <!-- last name -->
+                <div class=" flex flex-col space-y-3">
+                    <label for="">Last Name</label>
+                    <input class=" border border-slate-500 rounded-xl bg-slate-300 md:px-20 px-10 py-2" type="text" placeholder="Enter your Last_Name">
+                </div>
+                <!-- femail -->
+                <div class=" flex flex-col space-y-3">
+                    <label for="">Email Address</label>
+                    <input class=" border border-slate-500 rounded-xl bg-slate-300 md:px-20 px-10 py-2" type="text" placeholder="Enter your Email_Address">
+                </div>
+                <!-- last name -->
+                <div class=" flex flex-col space-y-3">
+                    <label for="">Password</label>
+                    <input class=" border border-slate-500 rounded-xl bg-slate-300 md:px-20 px-10 py-2" type="password" placeholder="Enter your Password">
+                </div>
+
+                <!-- buttom -->
+                <div>
+                    <button class=" bg-blue-600 md:px-36  px-28 py-3 rounded-full text-slate-100">Sign Up</button>
+                </div>
+            </div>
+        </div>
+    </body>
+    </html>
